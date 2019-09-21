@@ -3,8 +3,8 @@ const app = require('./server-app');
 
 const server = http.createServer(app.default);
 
-const PORT = 8085;
+const PORT = process.env.PORT || 8085;
 
 server.listen(PORT, function(){
-    console.log(`App listening on ${PORT}`);
+    console.log(`App server listening on ${PORT}`);
 });

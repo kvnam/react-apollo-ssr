@@ -1,8 +1,5 @@
 import React from 'react';
 const Html = ({ content, helmet, assets, initialState }) => {
-  console.log(`Assets css ${assets.css.length}`);
-  console.log(`Assets JS ${assets.js.length}`);
-  console.log(`Assets EMB JS ${assets.embeddedJS.length}`);
   return (
     <html lang="en">
       <head>
