@@ -5,7 +5,8 @@ module.exports = {
     entry: path.resolve(__dirname, 'server', 'server.js'),
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'server.js'
+        filename: 'server.js',
+        publicPath: '/'
     },
     target: 'node',
     externals: [nodeExternals()],
