@@ -1,5 +1,5 @@
 import React from 'react';
-const Html = ({ content, helmet, assets, initialState }) => {
+const Html = ({ content, helmet, assets, initialState, css }) => {
   return (
     <html lang="en">
       <head>
@@ -17,6 +17,7 @@ const Html = ({ content, helmet, assets, initialState }) => {
           assets.css.map((c, idx) => (
             <link key={idx} href={c} rel="stylesheet" />
           ))}
+        <style id="mui-ssr">${css}</style>
       </head>
 
       <body>
