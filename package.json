@@ -11,7 +11,7 @@
     "apollo-link": "^1.2.12",
     "apollo-link-error": "^1.1.11",
     "apollo-link-http": "^1.5.15",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
     "node-fetch": "^2.6.0",
